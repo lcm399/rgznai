@@ -1,0 +1,29 @@
+# 依赖与环境
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# 运行产物
+*.log
+.streamlit/secrets.toml
+records/
+
+# 比赛材料与生成脚本（不进入 GitHub 运行仓库）
+docs/
+make_ppt.py
+
+# 本地知识库（示例文件除外，用户自己填充）
+data/*
+!data/知识库示例.md
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Claude Code 本地状态（不随项目提交）
+.claude/
+
+# Office 临时锁文件（打开文档时生成）
+~$*
